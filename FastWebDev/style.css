@@ -1,0 +1,238 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    background-image: url("https://penrith.panthers.com.au/wp-content/uploads/2021/04/Friday-Night-DJs.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+
+header {
+    background-color: #241c4f;
+    color: #808080; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-icon {
+    background-color: #ffffff; 
+    color: #001F3F; 
+    font-size: 20px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.profile-icon img {
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    
+}
+
+nav {
+    display: flex;
+}
+
+nav a {
+    color: #B0B0B0; 
+    text-decoration: none;
+    margin: 10px 15px;
+    
+    
+}
+
+a:hover{
+    color: #001F3F;
+    background-color: #B0B0B0;
+    border-radius: 2px;
+}
+.profile-icon:hover{
+    
+    background-color: white;
+    border-radius: 2px;
+}
+
+.img{
+      margin-right: 0px;
+      margin-left: 0px;
+
+}
+.title{
+    text-align: center;
+    font-size:150px;
+    margin-top: 85px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Kalam', cursive;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-family: 'Shadows Into Light', cursive;
+    letter-spacing: 10px;
+  color:#3e213f;
+  text-shadow: 10px 10px 10px aqua;
+    
+   
+}
+
+    
+    .videobox{
+        margin-bottom: 50px;
+    }
+   
+
+    .video{
+        box-shadow: 15px 15px 15px rgba(202, 73, 183, 0.687);
+
+    }
+    .down{
+        background-color: #241c4f;
+        color: #B0B0B0;
+        
+    }
+    .night{
+        margin-left: 100px;
+    }
+    .bgmi{
+        display: inline;
+    }
+   
+    #join{
+        text-align: center;
+        font-size: 50px;
+        
+        text-shadow: 5px 5px 5px wheat ;
+    }
+
+    .row1{
+        margin-left: 0px;
+       display: flex; 
+       justify-content: space-evenly;
+
+    }
+    .row2{
+        margin-left: 101px;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-bottom: 90px;
+
+    }
+
+    .photo{
+        box-shadow: 15px 15px 10px rgba(202, 73, 183, 0.687);
+    }
+
+    .line{
+        
+        border: dotted 5px;
+        height: 5px;
+    }
+    .para{
+    font-size: 25px;
+    justify-content: space-evenly;
+    font-family: cursive;
+    text-align: center;
+    margin: 100px;
+    color: rgb(49, 37, 52);
+    text-shadow:5px 5px 3px aquamarine;
+    font-weight: bold;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+  line-height: 1.5;
+  font-family: 'Poppins', sans-serif;
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  
+}
+.container{
+  max-width: 1000px;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #351566;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+
+
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255,255,255,0.2);
+  margin:0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+  color: #24262b;
+  background-color: #ffffff;
+}
+
+
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+
+    
